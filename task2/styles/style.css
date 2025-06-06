@@ -1,0 +1,44 @@
+.containers {
+ display: flex;
+ flex-direction: column;
+}
+
+.btn {
+ border: none;
+ background-color: #fff;
+ padding: 10px;
+ cursor: pointer;
+}
+
+.btn.active {
+ background-color: #ddd;
+}
+
+.content {
+ display: none;
+ padding: 20px;
+}
+
+.content.active {
+ display: block;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+}
+
+ul li{
+    padding: 5px 40px;
+}
+
+.link{
+    padding: 0 40px;
+}
+
+.info{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 20px;
+}
