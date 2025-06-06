@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+}
+.name-card{
+    background-color: white;
+    max-width: 350px;
+    border-radius: 20px;
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+.myPhoto{
+    background: url('../image/ivan.jpg') center / cover no-repeat;
+    max-width: 320px;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+.myName{
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 350px 0 20px 20px;
+}
+.meInfoActivity{
+    color: red;
+    font-weight: 500;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.meInfo{
+    max-width: 350px;
+    text-align: center;
+    padding-bottom: 20px;
+}
